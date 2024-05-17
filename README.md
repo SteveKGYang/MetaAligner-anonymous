@@ -1,36 +1,6 @@
 <h1 align="center"><em>MetaAligner</em>: Towards Generalizable Multi-Objective
 Alignment of Language Models </h1>
 
-<div>
-<div align="left">
-    <a href='https://stevekgyang.github.io/' target='_blank'>Kailai Yang<sup>1,2</sup>&emsp;&emsp;
-    <a target='_blank'>Zhiwei Liu<sup>1,2</sup></a>&emsp;
-    <a href='https://scholar.google.com.hk/citations?user=UYW7X_0AAAAJ&hl=zh-CN' target='_blank'>Qianqian Xie<sup>3</sup></a>&emsp;
-    <a href='https://scholar.google.com.hk/citations?user=SnQ_CycAAAAJ&hl=zh-CN' target='_blank'>Jimin Huang<sup>3</sup></a>&emsp;
-    <a href='https://www.zhangtianlin.top/' target='_blank'>Tianlin Zhang<sup>1,2</sup>&emsp;
-    <a href='https://research.manchester.ac.uk/en/persons/sophia.ananiadou' target='_blank'>Sophia Ananiadou<sup>1,2,4</sup></a>&emsp;
-</div>
-<div>
-<div align="left">
-    <sup>1</sup>National Centre for Text Mining&emsp;
-    <sup>2</sup>The University of Manchester&emsp;
-    <sup>3</sup>The Fin AI&emsp;
-    <sup>4</sup>Artificial Intelligence Research Center, AIST
-</div>
-
-<div align="left">
-    <img src='https://i.postimg.cc/Kj7RzvNr/nactem-hires.png' alt='NaCTeM' height='85px'>&emsp;
-    <img src='https://i.postimg.cc/nc2Jy6FN/uom.png' alt='UoM University Logo' height='85px'>
-    <img src='https://i.postimg.cc/R0Y0n5xH/fin-ai.jpg' alt='Fin AI Logo' height='85px'>
-    <img src='https://i.postimg.cc/SNpxVKwg/airc-logo.png' alt='airc Logo' height='85px'>
-    <img src='https://i.postimg.cc/mkjVYKMY/aist.png' alt='aist Logo' height='85px'>
-</div>
-
-![](https://black.readthedocs.io/en/stable/_static/license.svg)
-
-## News
-📢 *Apr. 26, 2024* Release part of the <em>MetaAligner</em> models.
-
 ## Contents
 - [Introduction](#introduction)
 - [Model Weights](#metaaligner-models )
@@ -39,7 +9,6 @@ Alignment of Language Models </h1>
 - [Model Training](#model-training)
 - [Baseline Model](#baseline-model)
 - [Ethics and Impacts](#ethics-and-impacts)
-- [Citation](#citation)
 
 ## Introduction
 This project presents our efforts towards effective and generalizable multi-objective
@@ -54,8 +23,6 @@ unseen objectives while maintaining performance on aligned objectives; (3) We ex
 preference alignment datasets. Experimental results show that <em>MetaAligner</em> improves win rates on multiple 
 objectives across 10 policy models, substantially enhancing responses of state-of-the-art foundation models such as 
 GPT-3.5 and Claude-3.
-
-[The <em>MetaAligner</em> Paper](https://arxiv.org/abs/2403.17141)
 
 ## <em>MetaAligner</em> Models 
 
@@ -531,19 +498,3 @@ risks of current LLMs. Therefore, there are still many challenges in applying th
 
 By using or accessing the information in this paper, the users agree to indemnify, defend, and hold harmless the 
 authors, contributors, and any affiliated organizations or persons from any and all claims or damages.
-
-## Citation
-If you use <em>MetaAligner</em> in your work, please cite:
-
-```
-@article{yang2024metaaligner,
-  title={MetaAligner: Towards Generalizable Multi-Objective Alignment of Language Models},
-  author={Yang, Kailai and Liu, Zhiwei and Xie, Qianqian and Huang, Jimin and Zhang, Tianlin and Ananiadou, Sophia},
-  journal={arXiv preprint arXiv:2403.17141},
-  year={2024}
-}
-```
-
-## License
-
-<em>MetaAligner</em> is licensed under [MIT]. Please find more details in the [MIT](LICENSE) file.
