@@ -3,8 +3,8 @@ Alignment of Language Models </h1>
 
 ## Contents
 - [Introduction](#introduction)
-- [Model Weights](#metaaligner-models )
 - [Preparation](#preparation)
+- [Model Weights](#metaaligner-models )
 - [The Dynamic Multi-objective Dataset](#the-dynamic-multi-objective-dataset)
 - [Model Evaluation](#model-evaluation)
 - [Model Training](#model-training)
