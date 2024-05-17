@@ -4,6 +4,7 @@ Alignment of Language Models </h1>
 ## Contents
 - [Introduction](#introduction)
 - [Model Weights](#metaaligner-models )
+- [Preparation](#preparation)
 - [The Dynamic Multi-objective Dataset](#the-dynamic-multi-objective-dataset)
 - [Model Evaluation](#model-evaluation)
 - [Model Training](#model-training)
@@ -23,6 +24,14 @@ unseen objectives while maintaining performance on aligned objectives; (3) We ex
 preference alignment datasets. Experimental results show that <em>MetaAligner</em> improves win rates on multiple 
 objectives across 10 policy models, substantially enhancing responses of state-of-the-art foundation models such as 
 GPT-3.5 and Claude-3.
+
+## Preparation
+
+1. Set up the Python 3.10 environment.
+2. Build the dependencies with the following code:
+```bash
+pip install -r requirements.txt
+```
 
 ## <em>MetaAligner</em> Models 
 
